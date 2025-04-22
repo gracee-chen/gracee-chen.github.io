@@ -9,7 +9,7 @@ main:
     url: /#educations
   - title: "Research Experience"
     url: /#research-experience
- - title: "Professional Experience"
+  - title: "Professional Experience"
     url: /#professional-experience
   - title: "Teaching Experience"
     url: /#teaching-experience
