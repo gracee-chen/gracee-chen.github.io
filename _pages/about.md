@@ -26,16 +26,15 @@ I am an undergraduate student majoring in Mathematics and Computer Science at Ne
 # 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[GARF: Learning Generalizable 3D Reassembly for Real-World Fractures](https://github.com)
+[GARF: Learning Generalizable 3D Reassembly for Real-World Fractures]([https://github.com](https://ai4ce.github.io/GARF/))
 Chen Feng, **Grace Chen**, et al.
-[**Project**](https://github.com) <strong><span class='show_paper_citations' data=''></span></strong>
 </div>
 </div>
 
 # 📖 Educations
 - *2025.09 - 2026.12 (upcoming)*, Master of Science in Data Science, Harvard University
 - *2022.09 - 2025.05*, Bachelor of Art in Mathematics and Computer Science, New York University
-- 
+  
 # 💻 Research Experience
 - *2024.08 - Present*, **AI4CE Lab, NYU Tandon** (supervised by Prof. Chen Feng)
   - 3D Assembly Project: Contributed to GARF model for generalizable 3D reassembly 
@@ -58,10 +57,10 @@ Chen Feng, **Grace Chen**, et al.
   - Contributed to 10+ high-profile roadshows for client company offerings (project resulted in successful IPO)
   - Produced financial offering-related documents including due diligence and client interviews
 
-# 🛠 Skills
-- **Technical Proficiency:** R, Java, Python, C, SPSS Statistics, SQL, CSS, HTML, GIS
-- **Languages:** Mandarin Chinese (Native), English (Fluent)
-
 # 💬 Teaching Experience
 - *2024.02 - Present*, Teaching Assistant for Linear Algebra and Calculus III, Courant Institute of Mathematical Sciences
   - Provided one-on-one tutoring and detailed feedback, and graded assignments for classes of 50+ students
+
+# 🛠 Skills
+- **Technical Proficiency:** R, Java, Python, C, SPSS Statistics, SQL, CSS, HTML, GIS
+- **Languages:** Mandarin Chinese (Native), English (Fluent)
