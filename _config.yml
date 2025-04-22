@@ -1,3 +1,4 @@
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -22,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Grace Chen"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "New York University | Math & CS Undergraduate | Harvard MS Data Science (Incoming)"
+  avatar           : "images/Grace.png"
+  bio              : "New York University BA Math & CS | Harvard MS Data Science (Incoming)"
   location         : "New York, United States"
   employer         :
   pubmed           : 
