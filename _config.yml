@@ -1,60 +1,163 @@
----
-layout: homepage
----
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-## About Me
+# Site Settings
+title: Grace Chen
+description: New York University | Math & CS Undergraduate | Harvard MS Data Science (Incoming)
+repository               : "gracee-chen.github.io"
+google_scholar_stats_use_cdn : true
 
-I am an undergraduate student majoring in Mathematics and Computer Science at New York University, and an incoming Master of Science student in Data Science at Harvard University (September 2025). My research interests focus on artificial intelligence, computer vision, and medical image analysis. Currently, I work as a research assistant at the AI4CE Lab at NYU Tandon and the Radiology Research Department at NYU Langone Health, where I contribute to projects in 3D reconstruction, assembly, and medical imaging analysis.
+# google analytics
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
-## Education
+# SEO Related
+google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
-- **Harvard University** | Master of Science in Data Science (Incoming) | Sept 2025 - Dec 2026
-- **New York University** | Bachelor of Art in Mathematics and Computer Science (GPA: 3.883/4.000) | Sept 2022 - May 2025
+# Site Author
+author:
+  name             : "Grace Chen"
+  avatar           : "images/android-chrome-512x512.png"
+  bio              : "New York University | Math & CS Undergraduate | Harvard MS Data Science (Incoming)"
+  location         : "New York, United States"
+  employer         :
+  pubmed           : 
+  googlescholar    : 
+  email            : "gc3022@nyu.edu"
+  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "gracee-chen"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : # e.g., "linkedin username"
+  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid            : # e.g., "https://orcid.org/xxxx"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : 
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
 
-## Research Experience
 
-### NYU Tandon, AI4CE Lab (supervised by Prof. Chen Feng)
-*Research Assistant | Aug 2024 - Present*
-- **3D Assembly Project**: Second author on "GARF: Learning Generalizable 3D Reassembly for Real-World Fractures," submitted to ICCV 2025
-- Processed archaeopteryx thoracic and spinal bone fragments for assembly using PuzzleFusion and Jigsaw models, improving fragment analysis accuracy by 25%
-- Implemented the BreakingGood process and handled simulations of trained data, resulting in a 50% increase in trained data variety
-- **3D Reconstruction Project**: Implemented Dust3R geometric 3D vision model for archaeological fragment reconstruction, optimizing scanning methods to enhance model accuracy
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-### NYU Langone Health, Radiology Research Department (supervised by Dr. Yiqiu Shen)
-*Research Assistant | Feb 2024 - Present*
-- **Pancreatic Cancer Project**: Performed data cleansing and processing for 1200+ pancreatic cancer patients, using Large Language Models to process radiology reports
-- **Breast Cancer Project**: Conducted statistical analysis on 200 radiology report pairs using Cohen's Kappa hypothesis test to verify consistency between GPT-generated and radiologist-assigned BI-RADS scores
-- Enhanced GPT training prompt template for BI-RADS score ratings, achieving a 10% increase in scoring consistency through literature review on Prompt Engineering
 
-### Chongqing University of Technology (supervised by Prof. Dongyang Qiu)
-*Research Assistant | Nov 2023 - Present*
-- Implemented machine learning algorithms including Support Vector Machine (SVM) and ensemble classifiers to build early warning models for systemic financial risk
-- Developed data preprocessing tools, particularly web scraping tools, reducing processing time by 15%
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-### NYU Savin's Lab (supervised by Prof. Cristina Savin)
-*Research Assistant | Nov 2023 - May 2024*
-- Participated in dimensionality reduction and feature extraction of high-dimensional data using PCA and factor analysis
-- Conducted research on Gaussian Models for optimizing data modeling, prediction, and clustering
 
-## Professional Experience
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-### Guotai Jun'an Securities
-*Investment Banking Intern | May 2023 - July 2023*
-- Spearheaded project proposals for client companies, focusing on market research, comparable company analysis, and accounting assessments
-- Contributed to 10+ high-profile roadshows for client company offerings, documenting insights and consolidating key takeaways (project resulted in successful IPO)
-- Produced financial offering-related documents, including accounting due diligence and client interviews
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
 
-## Teaching & Volunteering
 
-### Courant Institute of Mathematical Sciences
-*Teaching Assistant | Feb 2024 - Present*
-- Served as TA for Linear Algebra and Calculus III for 5 academic terms, providing one-on-one tutoring and grading assignments for 50+ students
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-### NYU Project Sunshine
-*Member | Sept 2022 - March 2024*
-- Assembled craft kits and coordinated deliveries to hospitalized children to improve quality of life for pediatric patients
 
-## Skills
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-- **Technical Proficiency**: R, Java, Python, C, SPSS Statistics, SQL, CSS, HTML, GIS
-- **Languages**: Mandarin Chinese (Native), English (Fluent)
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
