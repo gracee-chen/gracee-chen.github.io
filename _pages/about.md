@@ -64,4 +64,4 @@ Chen Feng, **Grace Chen**, et al.
 
 # 💬 Teaching Experience
 - *2024.02 - Present*, Teaching Assistant for Linear Algebra and Calculus III, Courant Institute of Mathematical Sciences
-- Provided one-on-one tutoring and detailed feedback, and graded assignments for classes of 50+ students
+  - Provided one-on-one tutoring and detailed feedback, and graded assignments for classes of 50+ students
