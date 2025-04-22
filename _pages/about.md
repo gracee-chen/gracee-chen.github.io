@@ -26,7 +26,9 @@ I am an undergraduate student majoring in Mathematics and Computer Science at Ne
 # 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/overview.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[GARF: Learning Generalizable 3D Reassembly for Real-World Fractures]([https://ai4ce.github.io/GARF/])
+  
+[GARF: Learning Generalizable 3D Reassembly for Real-World Fractures](https://ai4ce.github.io/GARF/)
+
 Chen Feng, **Grace Chen**, et al. [**Project**](https://arxiv.org/abs/2504.05400) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 </div>
 </div>
