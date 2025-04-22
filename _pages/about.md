@@ -24,15 +24,13 @@ I am an undergraduate student majoring in Mathematics and Computer Science at Ne
 - *2025.02*: &nbsp;🎉🎉 Accepted to Harvard University's Master of Science program in Data Science! 
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025 (Submitted)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [GARF: Learning Generalizable 3D Reassembly for Real-World Fractures](https://github.com)
 Chen Feng, **Grace Chen**, et al.
 [**Project**](https://github.com) <strong><span class='show_paper_citations' data=''></span></strong>
 </div>
 </div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 📖 Educations
 - *2025.09 - 2026.12 (upcoming)*, Master of Science in Data Science, Harvard University
