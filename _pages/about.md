@@ -34,7 +34,7 @@ Chen Feng, **Grace Chen**, et al. [**Project**](https://arxiv.org/abs/2504.05400
 </div>
 
 # 📖 Educations
-- *2025.09 - 2026.12 (upcoming)*, Master of Science in Data Science, Harvard University
+- *2025.09 - 2026.12 (incoming)*, Master of Science in Data Science, Harvard University
 - *2022.09 - 2025.05*, Bachelor of Art in Mathematics and Computer Science, New York University
   
 # 💻 Research Experience
