@@ -24,7 +24,7 @@ I am an undergraduate student majoring in Mathematics and Computer Science at Ne
 - *2025.02*: &nbsp;🎉🎉 Accepted to Harvard University's Master of Science program in Data Science! 
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/GARF.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 [GARF: Learning Generalizable 3D Reassembly for Real-World Fractures](https://ai4ce.github.io/GARF/)
