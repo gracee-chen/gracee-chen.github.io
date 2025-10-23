@@ -154,6 +154,11 @@ redirect_from:
   display: block !important;
 }
 
+/* Force hide non-active tabs */
+.custom-tab-content:not(.active) {
+  display: none !important;
+}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
@@ -224,6 +229,7 @@ function showCustomTab(tabId) {
   contents.forEach(content => {
     content.classList.remove('active');
     content.style.display = 'none';
+    content.style.visibility = 'hidden';
   });
   
   // Remove active class from all buttons
@@ -237,6 +243,7 @@ function showCustomTab(tabId) {
   if (targetContent) {
     targetContent.classList.add('active');
     targetContent.style.display = 'block';
+    targetContent.style.visibility = 'visible';
   }
   
   // Add active class to clicked button
@@ -251,17 +258,21 @@ function showCustomTab(tabId) {
 document.addEventListener('DOMContentLoaded', function() {
   console.log('DOM loaded, initializing tabs');
   
-  // Hide all tab contents except the first one
+  // Force hide all tab contents first
   const contents = document.querySelectorAll('.custom-tab-content');
   contents.forEach((content, index) => {
-    if (index === 0) {
-      content.classList.add('active');
-      content.style.display = 'block';
-    } else {
-      content.classList.remove('active');
-      content.style.display = 'none';
-    }
+    content.classList.remove('active');
+    content.style.display = 'none';
+    content.style.visibility = 'hidden';
   });
+  
+  // Show only the first tab
+  const firstTab = document.querySelector('.custom-tab-content');
+  if (firstTab) {
+    firstTab.classList.add('active');
+    firstTab.style.display = 'block';
+    firstTab.style.visibility = 'visible';
+  }
   
   // Handle URL hash navigation
   const hash = window.location.hash.substring(1);
