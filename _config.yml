@@ -24,8 +24,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Grace Chen"
   avatar           : "images/Grace.png"
-  bio              : "New York University BA Math & CS | Harvard MS Data Science (Incoming)"
-  location         : "New York, United States"
+  bio              : "Harvard MS Data Science | New York University BA Math & CS"
+  location         : "Cambridge, United States"
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -44,7 +44,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "https://www.linkedin.com/in/grace-chen-37a974293/"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
