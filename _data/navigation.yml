@@ -1,9 +1,2 @@
-main:
-  - title: "About Me"
-    url: /#about-me
-  - title: "Research Experience"
-    url: /#research-experience
-  - title: "Work Experience"
-    url: /#work-experience
-  - title: "Skills"
-    url: /#skills
+# Navigation disabled - using custom tab navigation
+main: []
